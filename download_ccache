@@ -1,10 +1,10 @@
 #!/bin/bash
 
-url=https://ghostmirror.hitesh920.workers.dev/bitch.tar.gz
+url=https://ghostmirror.hitesh920.workers.dev/khatam.tar.gz
 
 cd /tmp # Where to download cccahe
 time aria2c $url -x16 -s50
 echo "dl done"
-time tar xf bitch.tar.gz
+time tar xf khatam.tar.gz
 echo "unzip done"
-find bitch.tar.gz -delete
+find khatam.tar.gz -delete
